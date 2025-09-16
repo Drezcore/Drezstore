@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMARAK - Ropa femenina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="AMARAK Logo" class="logo">
+    <nav>
+      <div class="dropdown">
+        <button class="dropbtn">Categorías</button>
+        <div class="dropdown-content">
+          <a href="#" onclick="filterCategory('all')">Todas</a>
+          <a href="#" onclick="filterCategory('Conjuntos')">Conjuntos</a>
+          <a href="#" onclick="filterCategory('Vestidos')">Vestidos</a>
+          <a href="#" onclick="filterCategory('Blusas')">Blusas</a>
+          <a href="#" onclick="filterCategory('Pantalones')">Pantalones</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Ropa femenina - AMARAK</h1>
+    <p>Calidad y estilo, directo a tu WhatsApp.</p>
+
+    <section id="catalogo"></section>
+  </main>
+
+  <footer>
+    <p>AMARAK • Ropa para dama • Contacto vía WhatsApp</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
