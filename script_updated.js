@@ -10,11 +10,11 @@ const PRODUCTS = [
     currency: 'COP',
     category: 'Conjuntos',
     img: [
-      'https://drive.google.com/uc?export=view&id=12Yu6in3qXoZjSQHPZfV0N7ytiH6uiMpe',
-      'https://drive.google.com/uc?export=view&id=1FyIcmCYGJMGYfG3wNPNs4IiV_0Cruwhs',
-      'https://drive.google.com/uc?export=view&id=15zdbLzv-mptp4NqAnj6TetOh282esA4m',
-      'https://drive.google.com/uc?export=view&id=1P95bT0oYu26gEeIWumxPXThwDuc--0lH',
-      'https://drive.google.com/uc?export=view&id=1XwAwrzlKG2rHdkcwLHma3nl9WDM2SzDC'
+      'Assets','Products','AMA01_1.jpg',
+      'Assets','Products','AMA01_2.jpg',
+      'Assets','Products','AMA01_3.jpg',
+      'Assets','Products','AMA01_4.jpg',
+      'Assets','Products','AMA01_5.jpg',
     ],
     sizes: ['S-M','L-XL','Plus'],
     sku: 'AMK-001',
